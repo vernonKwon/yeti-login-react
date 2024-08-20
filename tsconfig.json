@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "paths": {
+      "style/*" : ["./src/style/*"]
+    }
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

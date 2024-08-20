@@ -39,7 +39,6 @@ export default tseslint.config(
       '@typescript-eslint/comma-dangle': [0],
       '@typescript-eslint/no-use-before-define': [0],
       '@typescript-eslint/no-unused-vars': [1],
-      '@typescript-eslint/naming-convention': [1],
       '@typescript-eslint/no-explicit-any': [1],
       'import/prefer-default-export': 0,
       'comma-dangle': 'off',
@@ -47,14 +46,6 @@ export default tseslint.config(
       'jsx-a11y/alt-text': [1],
       'no-console': [2],
       'react/prop-types': [0],
-      'import/no-extraneous-dependencies': [
-        'error',
-        {
-          devDependencies: false,
-          optionalDependencies: false,
-          peerDependencies: false,
-        },
-      ],
     },
   }
 )
